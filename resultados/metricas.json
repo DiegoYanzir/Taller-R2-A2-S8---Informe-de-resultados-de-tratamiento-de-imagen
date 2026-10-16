@@ -1,0 +1,165 @@
+{
+  "metricas": {
+    "referencia": {
+      "brillo": 183.26802391859104,
+      "contraste": 46.111161455278726,
+      "nitidez": 136.66543748877294,
+      "entropia": 6.988964080810547,
+      "ruido": 0.6626259887908889,
+      "pct_oscuros": 3.4994143239625166,
+      "pct_saturados": 39.59549134036144,
+      "densidad_bordes": 1.6030266900937082,
+      "ancho": 2400,
+      "alto": 1751,
+      "canales": 3,
+      "megapixeles": 4.2024,
+      "problema": "Ninguno (línea base)",
+      "adecuada": "Sí"
+    },
+    "oscura": {
+      "brillo": 66.3767210447263,
+      "contraste": 30.67343759044799,
+      "nitidez": 85.16660625624304,
+      "entropia": 6.659947395324707,
+      "ruido": 1.7251788641423371,
+      "pct_oscuros": 29.026201602136183,
+      "pct_saturados": 0.3336479889853138,
+      "densidad_bordes": 0.5700308744993324,
+      "ancho": 2400,
+      "alto": 1755,
+      "canales": 3,
+      "megapixeles": 4.212,
+      "problema": "Subexposición, ruido elevado",
+      "adecuada": "No"
+    },
+    "desenfocada": {
+      "brillo": 182.24654808656416,
+      "contraste": 45.61649866990898,
+      "nitidez": 19.844647833082213,
+      "entropia": 6.992528438568115,
+      "ruido": 0.5177141013087534,
+      "pct_oscuros": 3.6363897476604277,
+      "pct_saturados": 38.59758836062834,
+      "densidad_bordes": 0.7616665274064172,
+      "ancho": 2400,
+      "alto": 1754,
+      "canales": 3,
+      "megapixeles": 4.2096,
+      "problema": "Pérdida de nitidez",
+      "adecuada": "No"
+    },
+    "fondo": {
+      "brillo": 153.07385188628007,
+      "contraste": 68.81051825846279,
+      "nitidez": 310.12733694118157,
+      "entropia": 7.648438453674316,
+      "ruido": 1.0882606005512923,
+      "pct_oscuros": 11.815622911096256,
+      "pct_saturados": 31.95095776236631,
+      "densidad_bordes": 6.834109709224599,
+      "ancho": 2400,
+      "alto": 1753,
+      "canales": 3,
+      "megapixeles": 4.2072,
+      "problema": "Distractores en el fondo",
+      "adecuada": "Condicional"
+    },
+    "angulo": {
+      "brillo": 168.38349269928142,
+      "contraste": 41.58682435446496,
+      "nitidez": 169.00938570009376,
+      "entropia": 7.178366661071777,
+      "ruido": 0.8959189232623449,
+      "pct_oscuros": 2.923029119318182,
+      "pct_saturados": 14.90524210394385,
+      "densidad_bordes": 2.1041788519385025,
+      "ancho": 2400,
+      "alto": 1752,
+      "canales": 3,
+      "megapixeles": 4.2048,
+      "problema": "Cambio geométrico de vista",
+      "adecuada": "Condicional"
+    }
+  },
+  "formatos": {
+    "resolucion": "1024 × 747",
+    "jpg_kb": 77.2431640625,
+    "png_kb": 736.8037109375,
+    "psnr_jpg": 44.05093080247592
+  },
+  "tratamiento": {
+    "Original (oscura)": {
+      "brillo": 66.3767210447263,
+      "contraste": 30.67343759044799,
+      "nitidez": 85.16660625624304,
+      "entropia": 6.659947395324707,
+      "ruido": 1.7251788641423371,
+      "pct_oscuros": 29.026201602136183,
+      "pct_saturados": 0.3336479889853138,
+      "densidad_bordes": 0.5700308744993324
+    },
+    "Ajuste lineal α=1.2, β=25": {
+      "brillo": 104.49556830982978,
+      "contraste": 35.89174968047173,
+      "nitidez": 123.61063055628415,
+      "entropia": 6.876960277557373,
+      "ruido": 2.078256295774793,
+      "pct_oscuros": 6.798126668891856,
+      "pct_saturados": 1.0983394526034713,
+      "densidad_bordes": 0.6264863568090788
+    },
+    "Ecualización global": {
+      "brillo": 124.40198259137183,
+      "contraste": 71.85918116746856,
+      "nitidez": 1036.0568361558267,
+      "entropia": 7.199931621551514,
+      "ruido": 5.7060224197226015,
+      "pct_oscuros": 20.108321512016023,
+      "pct_saturados": 17.80303425400534,
+      "densidad_bordes": 9.742677736982644
+    },
+    "Solo CLAHE": {
+      "brillo": 81.54424519150534,
+      "contraste": 32.76109355552176,
+      "nitidez": 511.7969688473149,
+      "entropia": 6.997969150543213,
+      "ruido": 4.554379424540902,
+      "pct_oscuros": 13.669658503004007,
+      "pct_saturados": 0.32843270193591456,
+      "densidad_bordes": 3.6423564753004003
+    },
+    "Gamma + CLAHE": {
+      "brillo": 119.41801307993993,
+      "contraste": 35.004486880156804,
+      "nitidez": 568.8075271711407,
+      "entropia": 7.094086170196533,
+      "ruido": 4.754952468685635,
+      "pct_oscuros": 4.308609395861148,
+      "pct_saturados": 0.6010618324432577,
+      "densidad_bordes": 5.270177945594125
+    },
+    "Gamma + CLAHE + bilateral (propuesta)": {
+      "brillo": 119.44360318966956,
+      "contraste": 34.692313113959614,
+      "nitidez": 174.38370815129517,
+      "entropia": 7.070355415344238,
+      "ruido": 2.081469063043118,
+      "pct_oscuros": 4.318127294726302,
+      "pct_saturados": 0.585807117823765,
+      "densidad_bordes": 2.958110814419226
+    }
+  },
+  "parametros": {
+    "gamma": 0.5406625635999275,
+    "gamma_min": 0.35,
+    "clipLimit": 2.0,
+    "tileGridSize": [
+      8,
+      8
+    ],
+    "d": 5,
+    "sigmaColor": 25,
+    "sigmaSpace": 5,
+    "ancho_analisis": 1024
+  }
+}
